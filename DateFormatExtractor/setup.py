@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="DateFormatExtractor-AVT-DEV",
+    name="DateFormatExtractor",
     version="0.0.1",
     author="Albert Ventura-Traveset",
     author_email="albertoventuratraveset@hotmail.com",
@@ -13,6 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/VenturaDev/DateExtractorRepo",
     packages=setuptools.find_packages(),
+    install_requires=['datetime'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
